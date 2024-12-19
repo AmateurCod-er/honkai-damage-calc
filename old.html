@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html style="background-color: rgb(60, 60, 60);">
+    <head>
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+        <div class="infoBox">
+            <p class="infoText">Team deals <input type="text" class="infoValue editable" value="45"><span class="infoPercent editable">%</span> more Elemental DMG. With Mei present, Mei and Herrscher of Finality deal <input type="text" class="infoValue editable" value="45"><span class="infoPercent editable">%</span> more Elemental DMG.</p>
+            <button class="checkbox"><p class="checkmark">T</p></button>
+        </div>        
+        <p id="output"></p>
+
+        <footer>
+            <script>
+                document.addEventListener('DOMContentLoaded', () => {
+                const infoElements = document.querySelectorAll('.infoValue');
+
+                infoElements.forEach(element => {
+                    // Set initial width based on initial value length
+                    element.style.width = (element.value.length * 8) + 'px';
+
+                    element.addEventListener('input', () => {
+                    element.style.width = (element.value.length * 8) + 'px';
+                    });
+                });
+                });
+            </script>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap');
+@font-face {
+    font-family: 'checkmark';
+    src: url('checkmark.ttf') format('truetype');
+}
+
+.infoText {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #b9b9b9;
+    max-width: 400px;
+    margin-top: 12px;
+}
+
+.infoValue {
+    font-family: "Anton SC", serif;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 93%;
+    background-color: inherit;
+    padding: 0px 1px;
+    border-style: none;
+}
+.infoPercent {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.editable {
+    color: #01c3ff;
+}
+
+.infoBox {
+	max-width: 440px;
+    display: flex;
+    background-color: black;
+    padding: auto auto;
+}
+.infoBox td {
+    vertical-align: top;
+}
+
+.checkbox {
+	background-color: inherit;
+	border-color: burlywood;
+	border-style: solid;
+	border-radius: 25%;
+	border-width: 2px;
+	width: 35px;
+	height: 35px;
+	opacity: 50%;
+    margin-top: 5px;
+}
+
+.checkmark {
+    opacity: 200%;
+	color: burlywood;
+    font-family: 'checkmark';
+    font-size: 21px;
+    margin: 2px 0px 0px -4px;
+}
+
+.noPadding {
+    padding: 0px;
+}
