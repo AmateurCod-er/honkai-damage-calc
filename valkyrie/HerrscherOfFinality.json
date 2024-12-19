@@ -1,0 +1,14 @@
+{
+    "Leader":{
+        "text":["Team deals", "more Elemental DMG. With Mei present, Mei and Herrscher of Finality deal", "more Elemental DMG."],
+        "param":[
+            [45, "%"],
+            [45, "%"]
+        ]
+    },
+    "Passive":"",
+    "Basic":"",
+    "Special":"",
+    "Ultimate":"",
+    "Evasion":""
+}
