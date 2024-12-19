@@ -7,7 +7,6 @@ function loadValkyrie(Valkyrie){
             var temp = document.getElementById("output");
             temp.innerHTML = this.responseText;
             console.log(this.responseText);
-            temp.innerHTML = "hello";
         }
     };
 
